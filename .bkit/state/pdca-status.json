@@ -1,0 +1,435 @@
+{
+  "version": "3.0",
+  "lastUpdated": "2026-07-07T05:04:37.016Z",
+  "activeFeatures": [
+    "wooldanji-randing"
+  ],
+  "primaryFeature": "wooldanji-randing",
+  "features": {
+    "wooldanji-randing": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-07-07T04:30:21.714Z",
+        "lastUpdated": "2026-07-07T05:04:37.015Z"
+      },
+      "lastFile": "/Users/hyeonwoo/Code/wooldanji-randing/src/components/hero-section.tsx"
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-07-07T04:27:05.001Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-07-07T05:04:37.016Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-07-07T04:30:21.715Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:31:08.341Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:31:19.859Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:31:31.923Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:31:46.293Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:31:57.713Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:32:09.022Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:32:24.056Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:32:38.510Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:32:51.060Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:32:59.266Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:33:09.864Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:33:22.204Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:48:56.259Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:49:01.565Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:49:12.614Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:49:31.583Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:49:36.868Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:49:41.658Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:49:46.538Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:49:50.900Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:49:55.269Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:50:01.212Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:50:05.430Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:50:09.581Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:50:13.002Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:50:16.775Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:50:23.339Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:50:26.719Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:50:32.853Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:50:36.853Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:50:43.034Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:50:47.056Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:50:50.511Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:51:24.402Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:51:29.048Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:51:34.505Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:51:39.734Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:52:02.910Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T04:59:56.186Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:00:05.736Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:00:12.572Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:00:18.107Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:00:21.806Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:00:29.367Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:00:50.673Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:00:57.290Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:01:14.771Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:01:36.001Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:02:00.453Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:02:20.754Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:02:29.347Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:02:39.754Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:02:54.065Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:03:15.440Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:03:24.341Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:03:32.569Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:03:47.041Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:03:50.638Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:03:54.571Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:04:04.870Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:04:11.089Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:04:33.271Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-07-07T05:04:37.016Z",
+      "feature": "wooldanji-randing",
+      "phase": "do",
+      "action": "updated"
+    }
+  ],
+  "stateMachine": {
+    "defaultWorkflow": "default",
+    "activeWorkflows": {},
+    "totalTransitions": 0
+  },
+  "automation": {
+    "globalLevel": 2,
+    "trustScore": 40,
+    "pendingApprovals": 0,
+    "lastGateResult": null
+  },
+  "team": {
+    "enabled": true,
+    "stateFile": ".bkit/runtime/agent-state.json",
+    "eventsFile": ".bkit/runtime/agent-events.jsonl"
+  }
+}
