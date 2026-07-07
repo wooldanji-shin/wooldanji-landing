@@ -39,7 +39,7 @@ export function ProcessSection() {
         }`}
       >
         <div className="mx-auto max-w-narrow text-center">
-          <span className="text-body-xs-bold uppercase tracking-widest text-primary">
+          <span className="text-body-md-bold uppercase tracking-widest text-primary">
             도입 절차
           </span>
           <h2 className="mt-3 text-balance text-heading-lg text-foreground sm:text-heading-lg-pc">
@@ -51,24 +51,22 @@ export function ProcessSection() {
         </div>
 
         {/* Main stages */}
-        <div className="mx-auto mt-12 grid max-w-content gap-4 md:grid-cols-3">
-          {stages.map((s, i) => (
-            <div
-              key={s.title}
-              className="rounded-2xl border border-border/60 bg-card p-6 transition-transform duration-300 hover:-translate-y-1"
-            >
-              <div className="flex items-center gap-3">
-                <span className="flex size-11 items-center justify-center rounded-xl bg-primary/10 text-primary">
-                  <s.icon className="size-6" aria-hidden="true" />
+        <div className="relative mx-auto mt-12 max-w-content">
+          <div className="absolute inset-x-6 top-5 hidden h-px bg-border md:block" aria-hidden="true" />
+          <div className="grid gap-8 md:grid-cols-3">
+            {stages.map((s, i) => (
+              <div key={s.title} className="relative flex flex-col items-center text-center md:items-start md:text-left">
+                <span className="relative z-10 flex size-11 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground ring-4 ring-surface-muted">
+                  <s.icon className="size-5" aria-hidden="true" />
                 </span>
-                <span className="text-body-sm-bold text-primary">STEP {i + 1}</span>
+                <span className="mt-3 text-body-md-bold text-primary">STEP {i + 1}</span>
+                <h3 className="mt-1 text-heading-sm text-foreground">{s.title}</h3>
+                <p className="mt-2 text-body-md text-muted-foreground">
+                  {s.desc}
+                </p>
               </div>
-              <h3 className="mt-4 text-heading-sm text-foreground">{s.title}</h3>
-              <p className="mt-2 text-body-sm text-muted-foreground">
-                {s.desc}
-              </p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         {/* Detailed steps */}
@@ -80,10 +78,10 @@ export function ProcessSection() {
           <ol className="mt-5 space-y-3">
             {detailSteps.map((step, i) => (
               <li key={step.label} className="flex items-center gap-3">
-                <span className="flex size-7 shrink-0 items-center justify-center rounded-full bg-primary/10 text-body-sm-bold text-primary">
+                <span className="flex size-7 shrink-0 items-center justify-center rounded-full bg-primary/10 text-body-md-bold text-primary">
                   {i + 1}
                 </span>
-                <span className="flex-1 text-body-sm-bold text-foreground">
+                <span className="flex-1 text-body-md-bold text-foreground">
                   {step.label}
                 </span>
                 <span className="rounded-full bg-secondary px-3 py-1 text-body-xs-bold text-secondary-foreground">
@@ -92,7 +90,7 @@ export function ProcessSection() {
               </li>
             ))}
           </ol>
-          <div className="mt-5 flex items-center gap-2 rounded-xl bg-primary/5 p-4 text-body-sm text-foreground">
+          <div className="mt-5 flex items-center gap-2 rounded-xl bg-primary/5 p-4 text-body-md text-foreground">
             <CheckCircle2 className="size-4 shrink-0 text-primary" aria-hidden="true" />
             <span>사용 승인 후 입주민은 바로 공동현관문을 열 수 있습니다.</span>
           </div>

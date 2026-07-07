@@ -25,7 +25,7 @@ export function SpecSection() {
               <Cpu className="size-6" aria-hidden="true" />
             </span>
             <div>
-              <span className="text-body-xs-bold uppercase tracking-widest text-primary">
+              <span className="text-body-md-bold uppercase tracking-widest text-primary">
                 장비 사양서
               </span>
               <h2 className="text-heading-md text-foreground sm:text-heading-md-pc">
@@ -38,7 +38,7 @@ export function SpecSection() {
             {specs.map((s, i) => (
               <div
                 key={s.label}
-                className={`grid grid-cols-3 text-body-sm ${
+                className={`grid grid-cols-3 text-body-md ${
                   i % 2 === 0 ? 'bg-card' : 'bg-secondary/20'
                 }`}
               >
@@ -48,7 +48,7 @@ export function SpecSection() {
             ))}
           </div>
 
-          <p className="mt-4 text-center text-body-sm text-muted-foreground">
+          <p className="mt-4 text-center text-body-md text-muted-foreground">
             단말기는 자동문 상부에 설치되며, 공동현관문과 관리소에 담당자 연락처
             안내판을 함께 부착합니다.
           </p>

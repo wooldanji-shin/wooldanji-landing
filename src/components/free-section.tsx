@@ -1,4 +1,5 @@
-import { Store, Gift, Heart, Award } from 'lucide-react'
+import { Fragment } from 'react'
+import { Store, Gift, Heart, Award, ArrowRight } from 'lucide-react'
 import { useReveal } from '../hooks/use-reveal'
 
 const flow = [
@@ -30,7 +31,7 @@ export function FreeSection() {
         }`}
       >
         <div className="mx-auto max-w-narrow text-center">
-          <span className="text-body-xs-bold uppercase tracking-widest text-primary">
+          <span className="text-body-md-bold uppercase tracking-widest text-primary">
             비즈니스 모델
           </span>
           <h2 className="mt-3 text-balance text-heading-lg text-foreground sm:text-heading-lg-pc">
@@ -42,23 +43,27 @@ export function FreeSection() {
           </p>
         </div>
 
-        <div className="mx-auto mt-12 grid max-w-content gap-4 md:grid-cols-3">
+        <div className="mx-auto mt-12 flex max-w-content flex-col gap-4 md:flex-row md:items-stretch">
           {flow.map((f, i) => (
-            <div
-              key={f.title}
-              className="relative rounded-2xl border border-border/60 bg-card p-6 transition-transform duration-300 hover:-translate-y-1"
-            >
-              <span className="absolute right-5 top-5 text-display-sm text-primary/15">
-                {i + 1}
-              </span>
-              <span className="flex size-12 items-center justify-center rounded-xl bg-primary/10 text-primary">
-                <f.icon className="size-6" aria-hidden="true" />
-              </span>
-              <h3 className="mt-4 text-heading-sm text-foreground">{f.title}</h3>
-              <p className="mt-2 text-body-sm text-muted-foreground">
-                {f.desc}
-              </p>
-            </div>
+            <Fragment key={f.title}>
+              <div className="relative flex-1 rounded-2xl border border-border/60 bg-card p-6 transition-transform duration-300 hover:-translate-y-1">
+                <span className="absolute right-5 top-5 text-display-sm text-primary/15">
+                  {i + 1}
+                </span>
+                <span className="flex size-12 items-center justify-center rounded-xl bg-primary/10 text-primary">
+                  <f.icon className="size-6" aria-hidden="true" />
+                </span>
+                <h3 className="mt-4 text-heading-sm text-foreground">{f.title}</h3>
+                <p className="mt-2 text-body-md text-muted-foreground">
+                  {f.desc}
+                </p>
+              </div>
+              {i < flow.length - 1 && (
+                <div className="hidden shrink-0 items-center justify-center md:flex" aria-hidden="true">
+                  <ArrowRight className="size-5 text-primary/40" />
+                </div>
+              )}
+            </Fragment>
           ))}
         </div>
 
@@ -70,7 +75,7 @@ export function FreeSection() {
             <h3 className="text-heading-sm text-foreground">
               문을 편하게 여는 것만으로 아이들을 도울 수 있습니다
             </h3>
-            <p className="mt-1 text-body-sm text-muted-foreground">
+            <p className="mt-1 text-body-md text-muted-foreground">
               수익의 일부를 월드비전을 통해 어려움에 처한 아동을 후원합니다.
             </p>
           </div>

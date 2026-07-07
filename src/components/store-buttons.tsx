@@ -1,5 +1,5 @@
-const APP_STORE_URL = '#'
-const GOOGLE_PLAY_URL = '#'
+const APP_STORE_URL = 'https://apps.apple.com/kr/app/%EC%9A%B8%EB%8B%A8%EC%A7%80/id6754814822'
+const GOOGLE_PLAY_URL = 'https://play.google.com/store/apps/details?id=com.wooldanji.app'
 
 function AppleIcon({ className }: { className?: string }) {
   return (
@@ -25,6 +25,8 @@ export function StoreButtons({ className = '' }: { className?: string }) {
     <div className={`flex flex-col gap-3 sm:flex-row ${className}`}>
       <a
         href={APP_STORE_URL}
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-flex items-center gap-3 rounded-xl bg-neutral-950 px-5 py-3 text-white transition-transform duration-200 hover:scale-[1.02] active:scale-95"
       >
         <AppleIcon className="size-7" />
@@ -35,6 +37,8 @@ export function StoreButtons({ className = '' }: { className?: string }) {
       </a>
       <a
         href={GOOGLE_PLAY_URL}
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-flex items-center gap-3 rounded-xl bg-neutral-950 px-5 py-3 text-white transition-transform duration-200 hover:scale-[1.02] active:scale-95"
       >
         <GooglePlayIcon className="size-6" />

@@ -45,7 +45,7 @@ function FaqItem({ q, a }: { q: string; a: string }) {
         />
       </button>
       {open && (
-        <p className="px-5 pb-5 text-body-sm text-muted-foreground">{a}</p>
+        <p className="px-5 pb-5 text-body-md text-muted-foreground">{a}</p>
       )}
     </div>
   )
@@ -62,7 +62,7 @@ export function FaqSection() {
         }`}
       >
         <div className="mx-auto max-w-narrow text-center">
-          <span className="text-body-xs-bold uppercase tracking-widest text-primary">
+          <span className="text-body-md-bold uppercase tracking-widest text-primary">
             유지 관리 및 Q&amp;A
           </span>
           <h2 className="mt-3 text-balance text-heading-lg text-foreground sm:text-heading-lg-pc">
@@ -82,7 +82,7 @@ export function FaqSection() {
               <span className="flex size-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
                 <m.icon className="size-5" aria-hidden="true" />
               </span>
-              <span className="text-body-sm-bold text-foreground">{m.label}</span>
+              <span className="text-body-md-bold text-foreground">{m.label}</span>
             </div>
           ))}
         </div>

@@ -51,7 +51,7 @@ export function SiteHeader() {
             <a
               key={item.href}
               href={item.href}
-              className={`text-body-sm transition-colors ${
+              className={`text-body-md transition-colors ${
                 solid
                   ? 'text-muted-foreground hover:text-foreground'
                   : 'text-white/70 hover:text-white'
@@ -65,7 +65,7 @@ export function SiteHeader() {
         <div className="flex items-center gap-2">
           <a
             href="#contact"
-            className="hidden items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-body-sm-bold text-primary-foreground transition-opacity hover:opacity-90 sm:flex"
+            className="hidden items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-body-md-bold text-primary-foreground transition-opacity hover:opacity-90 sm:flex"
           >
             무료 체험 신청
           </a>
@@ -91,7 +91,7 @@ export function SiteHeader() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="rounded-lg px-3 py-3 text-body-sm text-foreground hover:bg-secondary"
+                className="rounded-lg px-3 py-3 text-body-md text-foreground hover:bg-secondary"
               >
                 {item.label}
               </a>
@@ -99,7 +99,7 @@ export function SiteHeader() {
             <a
               href="#contact"
               onClick={() => setOpen(false)}
-              className="mt-2 flex items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-body-sm-bold text-primary-foreground"
+              className="mt-2 flex items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-body-md-bold text-primary-foreground"
             >
               무료 체험 신청
             </a>

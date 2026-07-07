@@ -4,7 +4,6 @@ import {
   HeartPulse,
   Wallet,
   Keyboard,
-  AlertTriangle,
   KeyRound,
   CircleDollarSign,
 } from 'lucide-react'
@@ -67,7 +66,7 @@ export function BenefitsSection() {
         }`}
       >
         <div className="mx-auto max-w-narrow text-center">
-          <span className="text-body-xs-bold uppercase tracking-widest text-primary">
+          <span className="text-body-md-bold uppercase tracking-widest text-primary">
             제안 배경 및 기대 효과
           </span>
           <h2 className="mt-3 text-balance text-heading-lg text-foreground sm:text-heading-lg-pc">
@@ -79,21 +78,17 @@ export function BenefitsSection() {
         </div>
 
         {/* Problems */}
-        <div className="mx-auto mt-12 grid max-w-content gap-4 sm:grid-cols-3">
-          {problems.map((p) => (
+        <div className="mx-auto mt-12 max-w-content overflow-hidden rounded-2xl border border-destructive/20 bg-card sm:flex sm:divide-x sm:divide-destructive/15">
+          {problems.map((p, i) => (
             <div
               key={p.title}
-              className="rounded-2xl border border-destructive/20 bg-card p-6 transition-transform duration-300 hover:-translate-y-1"
+              className={`flex flex-1 items-start gap-3 p-6 ${i > 0 ? 'border-t border-destructive/15 sm:border-t-0' : ''}`}
             >
-              <div className="flex items-center gap-2">
-                <span className="flex size-9 items-center justify-center rounded-lg bg-destructive/10 text-destructive">
-                  <AlertTriangle className="size-5" aria-hidden="true" />
-                </span>
+              <p.icon className="mt-0.5 size-5 shrink-0 text-destructive" aria-hidden="true" />
+              <div>
                 <h3 className="text-heading-sm text-foreground">{p.title}</h3>
+                <p className="mt-1 text-body-md text-muted-foreground">{p.desc}</p>
               </div>
-              <p className="mt-3 text-body-sm text-muted-foreground">
-                {p.desc}
-              </p>
             </div>
           ))}
         </div>
@@ -113,7 +108,7 @@ export function BenefitsSection() {
                 <b.icon className="size-6" aria-hidden="true" />
               </span>
               <h3 className="mt-4 text-heading-xxs text-foreground">{b.title}</h3>
-              <p className="mt-2 text-body-sm text-muted-foreground">
+              <p className="mt-2 text-body-md text-muted-foreground">
                 {b.desc}
               </p>
             </div>

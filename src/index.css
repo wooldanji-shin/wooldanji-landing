@@ -167,6 +167,8 @@
   --text-body-lg-bold--line-height: 1.5;
   --text-body-lg-bold--font-weight: 700;
 
+  --color-point: var(--point);
+  --color-point-soft: var(--point-soft);
   --color-surface-muted: var(--surface-muted);
   --color-chart-5: var(--chart-5);
   --color-chart-4: var(--chart-4);
@@ -204,6 +206,8 @@
   color-scheme: light;
   --background: #ffffff;
   --surface-muted: #f5f6f7;
+  --point: #ff822f;
+  --point-soft: #ffedd5;
   --foreground: oklch(0.18 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.18 0 0);

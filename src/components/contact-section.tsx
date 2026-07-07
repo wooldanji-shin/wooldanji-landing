@@ -20,7 +20,7 @@ export function ContactSection() {
         }`}
       >
         <div className="mx-auto max-w-content overflow-hidden rounded-[2rem] bg-primary px-6 py-14 text-center text-primary-foreground sm:px-12">
-          <span className="inline-flex items-center gap-2 rounded-full bg-primary-foreground/15 px-4 py-1.5 text-body-sm-bold">
+          <span className="inline-flex items-center gap-2 rounded-full bg-primary-foreground/15 px-4 py-1.5 text-body-md-bold">
             <DoorOpen className="size-4" aria-hidden="true" />
             OPEN · 손가락만 까딱
           </span>
@@ -32,7 +32,7 @@ export function ContactSection() {
 
           <ul className="mx-auto mt-8 flex max-w-narrow flex-wrap justify-center gap-x-5 gap-y-2">
             {points.map((p) => (
-              <li key={p} className="flex items-center gap-1.5 text-body-sm-bold">
+              <li key={p} className="flex items-center gap-1.5 text-body-md-bold">
                 <Check className="size-4" aria-hidden="true" />
                 {p}
               </li>
@@ -40,7 +40,7 @@ export function ContactSection() {
           </ul>
 
           <div className="mt-10 flex flex-col items-center gap-3">
-            <p className="text-body-sm text-primary-foreground/80">언제라도 연락 부탁드립니다</p>
+            <p className="text-body-md text-primary-foreground/80">언제라도 연락 부탁드립니다</p>
             <a
               href="tel:010-7528-8254"
               className="relative inline-flex items-center gap-3 rounded-full bg-background px-8 py-4 text-heading-lg text-primary transition-transform duration-200 hover:scale-[1.03] active:scale-95"
@@ -59,17 +59,33 @@ export function ContactSection() {
 export function SiteFooter() {
   return (
     <footer className="border-t border-border/60 bg-surface-muted">
-      <div className="mx-auto flex max-w-page flex-col items-center justify-between gap-4 px-4 py-8 sm:flex-row sm:px-6">
-        <div className="flex items-center gap-2">
-          <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-            <DoorOpen className="size-4" aria-hidden="true" />
-          </span>
-          <span className="text-heading-xxs text-foreground">울단지</span>
-          <span className="text-body-sm text-muted-foreground">우리단지 생활도우미</span>
+      <div className="mx-auto max-w-page px-4 py-8 sm:px-6">
+        <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+          <div className="flex items-center gap-2">
+            <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
+              <DoorOpen className="size-4" aria-hidden="true" />
+            </span>
+            <span className="text-heading-xxs text-foreground">울단지</span>
+            <span className="text-body-md text-muted-foreground">우리단지 생활도우미</span>
+          </div>
+          <p className="text-body-md text-muted-foreground">
+            © {new Date().getFullYear()} 원터치게이트(OTG). All rights reserved.
+          </p>
         </div>
-        <p className="text-body-sm text-muted-foreground">
-          문의: 010-7528-8254 · © {new Date().getFullYear()} 울단지. All rights reserved.
-        </p>
+
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 border-t border-border/60 pt-6 text-center text-body-sm text-muted-foreground sm:justify-start sm:text-left">
+          <span>상호: 원터치게이트(OTG)</span>
+          <span aria-hidden="true">·</span>
+          <span>대표자: 정주희</span>
+          <span aria-hidden="true">·</span>
+          <span>사업자등록번호: 530-04-02526</span>
+          <span aria-hidden="true">·</span>
+          <span>통신판매신고번호: 제2026-안양동안-0742호</span>
+          <span aria-hidden="true">·</span>
+          <span>주소: 경기도 안양시 동안구 학의로 268, 1동 1층 S101호 (관양동, 메가밸리)</span>
+          <span aria-hidden="true">·</span>
+          <span>연락처: 010-7528-8254</span>
+        </div>
       </div>
     </footer>
   )
