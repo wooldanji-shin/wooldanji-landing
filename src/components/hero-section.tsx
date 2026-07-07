@@ -16,9 +16,8 @@ export function HeroSection() {
     <section id="top" className="relative overflow-hidden border-b border-border/60">
       <div className="mx-auto grid max-w-page items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:py-24">
         <div
-          className={`transition-all duration-700 ${
-            mounted ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
-          }`}
+          className={`transition-all duration-700 ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
+            }`}
         >
           <span className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-body-md-bold text-primary">
             우리단지 생활도우미 · 울단지
@@ -62,9 +61,8 @@ export function HeroSection() {
         </div>
 
         <div
-          className={`relative transition-all delay-150 duration-700 ${
-            mounted ? 'translate-y-0 scale-100 opacity-100' : 'translate-y-6 scale-95 opacity-0'
-          }`}
+          className={`relative transition-all delay-150 duration-700 ${mounted ? 'translate-y-0 scale-100 opacity-100' : 'translate-y-6 scale-95 opacity-0'
+            }`}
         >
           <div className="absolute -inset-4 -z-10 rounded-[2rem] bg-primary/10 blur-2xl" />
           <img

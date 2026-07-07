@@ -1,4 +1,4 @@
-import { Check, X, Star } from 'lucide-react'
+import { Check, X } from 'lucide-react'
 import { useReveal } from '../hooks/use-reveal'
 
 const compareRows = [
@@ -82,8 +82,8 @@ export function DifferenceSection() {
         </div>
 
         {/* Rating callout */}
-        <div className="mx-auto mt-6 flex max-w-content flex-col items-center gap-6 rounded-2xl bg-primary p-8 text-center text-primary-foreground sm:flex-row sm:justify-between sm:text-left">
-          <div>
+        {/* <div className="mx-auto mt-6 flex max-w-content flex-col items-center gap-6 rounded-2xl bg-primary p-8 text-center text-primary-foreground sm:flex-row sm:justify-between sm:text-left"> */}
+        {/* <div>
             <p className="text-display-md sm:text-display-md-pc">
               4.8<span className="text-heading-md text-primary-foreground/50">점</span>
             </p>
@@ -93,12 +93,12 @@ export function DifferenceSection() {
               ))}
             </div>
             <p className="mt-2 text-body-md text-primary-foreground/70">울단지 사용자 평점</p>
-          </div>
-          {/* <p className="max-w-xs text-body-md text-primary-foreground/80 sm:text-right">
+          </div> */}
+        {/* <p className="max-w-xs text-body-md text-primary-foreground/80 sm:text-right">
             유사 서비스 평점은 1.4~2.7점.
             <br className="hidden sm:block" /> 울단지는 부작용이 없어 만족도가 압도적으로 높습니다.
           </p> */}
-        </div>
+        {/* </div> */}
 
         {/* Side effects list */}
         {/* <div className="mx-auto mt-10 max-w-content rounded-2xl border border-border/60 bg-card p-6">
