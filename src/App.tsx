@@ -3,7 +3,7 @@ import { HeroSection } from './components/hero-section'
 import { BenefitsSection } from './components/benefits-section'
 import { HowSection } from './components/how-section'
 import { FreeSection } from './components/free-section'
-import { DifferenceSection } from './components/difference-section'
+// import { DifferenceSection } from './components/difference-section'
 import { ProcessSection } from './components/process-section'
 import { FaqSection } from './components/faq-section'
 import { SpecSection } from './components/spec-section'
@@ -18,7 +18,7 @@ function App() {
         <BenefitsSection />
         <HowSection />
         <FreeSection />
-        <DifferenceSection />
+        {/* <DifferenceSection /> */}
         <ProcessSection />
         <FaqSection />
         <SpecSection />
